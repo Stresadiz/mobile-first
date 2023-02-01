@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: orange;
+    font-family: Helvetica, sans-serif;
+}
+
+/*
+    Nav Styles
+*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+}
+
+.links{
+    background-color: aqua;
+    padding: 0.5em 1em;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#title{
+    color: white;
+    padding: 0.5em 1em;
+}
+
+#title:hover{
+    font-weight: 600;
+}
+
+/*
+    Main Styles
+*/
+
+main{
+    background-color: brown;
+}
+
+/*
+    Btn Styles
+*/
+
+.btn--link{
+    width: inherit;
+}
+
+.btn--img{
+    width: inherit;
+    height:1.5em;
+}
+
+.btn--img:hover{
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.btn--nav{
+    display: none;
+}
+
+/*
+    Card Styles
+*/
+
+.card{
+    background-color: rgb(46, 53, 53);
+}
+
+.card--header{
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 0.5em 0 0 0.8em;
+}
+
+.card--user-img{
+    transform: scale(0.9);
+    width: 15%;
+}
+
+.card--mid-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 0 0 0.8em;
+    width: 55%;
+}
+
+.card--options{
+    display: flex;
+    justify-content:space-around;
+    width: 30%;
+    font-weight: normal;
+    font-size: larger;
+    color: rgb(201, 201, 201);
+}
+
+.options{
+    display: flex;
+}
+
+.card--user-name{
+    font-size: small;
+    font-weight: 500;
+}
+
+.card--img{
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card--img-text{
+    background-color: rgb(56, 51, 51);
+    width: -webkit-fill-available;
+    padding: 0.5em 0 0.5em 1em;
+}
+
+
+.card--text{
+    color: white;
+    padding: 0.5em 1em 0.5em 1em;
+}
+
+/*
+    Img Styles
+*/
+
+.img--notice{
+    transform: scale(1);
+}
+
+.img--subtitle{
+    line-height: 1.8em;
+    color: gray;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+.img--title{
+    color:white;
+    font-weight: bolder;
+}
+
+/*
+    User Styles
+*/
+
+.user--img{
+    border-radius: 50%;
+    border: 2px solid rgb(59, 115, 212);
+    padding: 0.2em;
+}
