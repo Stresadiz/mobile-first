@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-color: orange;
+    background-color: rgb(100, 97, 92);
     font-family: Helvetica, sans-serif;
 }
 
@@ -102,6 +102,24 @@ main{
 
 .options{
     display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+.options img{
+    filter: contrast(0.4);
+}
+
+.dont-see{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.dont-see img{
+    transform: scale(0.6);
+    filter: contrast(0.4);
 }
 
 .card--user-name{
